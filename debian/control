@@ -1,0 +1,12 @@
+Source: gxml
+Maintainer: Lauchlin Wilkinson <lauchlin@lauchlin.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: gxml
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Gnome XML
+  GXml is a GObject-based XML DOM API implementing at least W3C DOM Level 1 Core. Its functionality is obtained by wrapping libxml2.
